@@ -16,6 +16,8 @@ resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
 }
+
+//click and hold function
 const clickAndHold = (btnEl) => {
     let timerId;
     const DURATION = 200;
